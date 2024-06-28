@@ -1,0 +1,6 @@
+{
+  "customHandlerName": "{customhandlername}",
+  "logDirLocation": "C:\\Path\\To\\Logs",
+  "regFileLocation": "C:\\Path\\To\\Output\\mustbebrave-protocol.reg",
+  "ps1Location": "C:\\Path\\To\\Output\\MustBeBrave.ps1"
+}
