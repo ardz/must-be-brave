@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Must Be Brave Protocol Handler",
+  "version": "1.0",
+  "description": "Handles mustbebrave protocol.",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Must Be Brave",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/brave16.png",
+      "48": "icons/brave48.png",
+      "128": "icons/brave128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/brave16.png",
+    "48": "icons/brave48.png",
+    "128": "icons/brave128.png"
+  }
+}
